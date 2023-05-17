@@ -29,7 +29,6 @@ function App() {
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler} />
-      <p>This is also visible</p>
       <Expenses expenses={expenses}></Expenses>
     </div>
   );
